@@ -1,6 +1,6 @@
 # <div align="center">__Zero To Hero - Learning Path__</div>
 
-# <div align="center"> 👤 &#x0259A; &#x1F47E; &#x0259E; 🦸‍♂️ </div>
+# <div align="center"> &#x1F647; &#x0259A; &#x1F47E; &#x0259E; 🦸‍♂️ </div>
 
 ## <div align="center">Here is my code learning path. The syllabus will cover programming concepts from basic to advanced.</div>
 
