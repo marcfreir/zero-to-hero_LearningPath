@@ -11,7 +11,7 @@ public class ArithmeticOperator
         String start, middle, end, result;
         start = "Talk is cheap. ";
         middle = "Show me the code. ";
-        end = "Linus Torvalds";
+        end = "- Linus Torvalds";
 
         result = start + middle + end;
 
