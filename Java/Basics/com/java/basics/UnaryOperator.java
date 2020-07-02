@@ -4,7 +4,7 @@ public class UnaryOperator
 {
     public static void main(String[] args)
     {
-        double number = 8.7, resultNumber;
+        double number = 8.7;
         boolean flag = false;
 
         //Here the number will remain the same (because it is already positive)
