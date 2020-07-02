@@ -2,7 +2,7 @@
 
 # <div align="center"> 👤 &#x0259A; &#x1F47E; &#x0259E; 🦸‍♂️ </div>
 
-## <div align="center">Here is my code learning path. The syllabus will cover the programming concepts from basic to advanced.</div>
+## <div align="center">Here is my code learning path. The syllabus will cover programming concepts from basic to advanced.</div>
 
 ### <div align="right">The motto: *To __err__ is human; to __edit__, divine; and to __code__, sublime.* - Timmy Nee </div>
 
