@@ -65,6 +65,9 @@ public class RootsOfAQuadraticEquation
             System.out.println(rp + " + j " + ip);
             System.out.println(rp + " - j " + ip);
         }
+        numA.close();
+        numB.close();
+        numC.close();
     }
     
 }

@@ -32,3 +32,12 @@
 > ``` The roots for the real part and imaginary part are: ``` <br/>
 > ``` 0.75 + j 1.1989578808281798 ``` <br/>
 > ``` 0.75 - j 1.1989578808281798 ``` <br/>
+
+### __FactorialOfNumber.java__ <br/> Output
+* [Exception]
+> ``` Enter a integer: ``` <br/>
+> ``` 5.6 ``` <br/>
+> ``` You should type a integer! >> java.util.InputMismatchException ``` <br/>
+* [5]
+> ``` 5 ``` <br/>
+> ``` 5! is: 120``` <br/>
