@@ -41,3 +41,12 @@
 * [5]
 > ``` 5 ``` <br/>
 > ``` 5! is: 120``` <br/>
+
+### __PrimeNumber.java__ <br/> Output
+> ``` Enter a number to check if it is prime or not: ``` <br/>
+> ``` 2 ``` <br/>
+> ``` 2 is prime. ``` <br/>
+
+> ``` Enter a number to check if it is prime or not: ``` <br/>
+> ``` 4 ``` <br/>
+> ``` 4 is not prime. ``` <br/>
