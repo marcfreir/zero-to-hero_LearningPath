@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /**
  * Check whether a number entered by the user is prime or not
+ * [Algorithm]
  * Step 1: Start
  * Step 2: Declare variables number, index and flag.
  * Step 3: Initialize variables

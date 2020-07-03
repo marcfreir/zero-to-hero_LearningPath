@@ -50,3 +50,20 @@
 > ``` Enter a number to check if it is prime or not: ``` <br/>
 > ``` 4 ``` <br/>
 > ``` 4 is not prime. ``` <br/>
+
+### __FibonacciSeries.java__ <br/> Output
+> ``` Enter a number up to 1000: ``` <br/>
+> ``` 10 ``` <br/>
+
+> ``` The sequence for the number 10 is: ``` <br/>
+> ``` 0 ``` <br/>
+> ``` 1 ``` <br/>
+> ``` 1 ``` <br/>
+> ``` 2 ``` <br/>
+> ``` 3 ``` <br/>
+> ``` 5 ``` <br/>
+> ``` 8 ``` <br/>
+* [Exception]
+> ``` Enter a number up to 1000: ``` <br/>
+> ``` 9.5 ``` <br/>
+> ``` The input is not valid >> java.util.InputMismatchException  ``` <br/>
