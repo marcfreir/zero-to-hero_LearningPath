@@ -1,7 +1,7 @@
 package com.company;
 
 //Applying inheritance from the class Employee to Manager
-class Manager extends Employee
+class Manager extends Employee implements Authenticable
 {
     @Override
     public double getBonus()
@@ -13,5 +13,11 @@ class Manager extends Employee
     public void chargeDelivery()
     {
         System.out.println("Is ready?");
+    }
+
+    @Override
+    public boolean authenticate(int password) {
+        // Implemented authentication rule
+        return false;
     }
 }
