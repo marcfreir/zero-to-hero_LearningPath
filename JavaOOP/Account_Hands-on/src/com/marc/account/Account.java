@@ -6,7 +6,7 @@ public class Account
     private String name;
     private int branchCode;
 
-    //Constructor
+    //Constructor 
     public Account(String name, int branchCode, double accountBalance)
     {
         this.name = name;
@@ -39,7 +39,8 @@ public class Account
     {
         return accountBalance;
     }
-
+    
+    //Print data
     public void print()
     {
         System.out.println(name);
