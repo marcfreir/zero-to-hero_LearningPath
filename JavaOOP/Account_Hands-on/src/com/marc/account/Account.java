@@ -3,26 +3,38 @@ package com.marc.account;
 public class Account
 {
     private double accountBalance;
-    private String name;
+    private String holder;
     private int branchCode;
-
-    //Constructor 
-    public Account(String name, int branchCode, double accountBalance)
+    private int number;
+    
+    public void withdraw(double value)
     {
-        this.name = name;
-        this.branchCode = branchCode;
-        this.accountBalance = accountBalance;
+        if (accountBalance >= value)
+        {
+            this.accountBalance -= value;
+        }
+        else
+        {
+            throw new InsufficientFundsException(accountBalance);
+            //Comment the line above before uncommenting the line below
+            /** throw new RuntimeException(); */
+        }
+    }
+
+    public void deposit(double value)
+    {
+        this.accountBalance += value;
     }
 
     //Getters and setters
-    public String getName()
+    public String getHolder()
     {
-        return name;
+        return holder;
     }
 
-    public void setName(String name)
+    public void setHolder(String holder)
     {
-        this.name = name;
+        this.holder = holder;
     }
 
     public int getBranchCode()
@@ -43,7 +55,7 @@ public class Account
     //Print data
     public void print()
     {
-        System.out.println(name);
+        System.out.println(holder);
         System.out.println(branchCode);
         System.out.println(accountBalance);
     }
