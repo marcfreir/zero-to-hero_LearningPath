@@ -21,7 +21,7 @@ $ echo $? # check the return code; it should be 2
 > x86 assembly output [main]:
 
 ```s
-main:                  ; label for start of "main" function
+main:                      ; label for start of "main" function
 	subq	$40, %rsp
 	call	__main
 	movl	$2, %eax   ; move constant "2" into the EAX register
