@@ -1,4 +1,4 @@
-# Writing a C Compiler
+# <div align="center"> Writing a C Compiler </div>
 
     * Week 1: Integers
 
