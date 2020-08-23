@@ -175,11 +175,12 @@ class BinaryOperationNode:
 class Parser:
     def __init__(self, tokens):
         self.tokens = tokens
-        self.token_index = 1
-        self.advance()
+        self.token_index = -1
+        self.advance('')
 
-    def advance(self):
+    def advance(self, chunk):
         self.token_index += 1
+        self.chunk = chunk
 
         if self.token_index < len(self.tokens):
             self.current_token = self.tokens[self.token_index]
@@ -193,7 +194,7 @@ class Parser:
         num_node_token = self.current_token
 
         if num_node_token.type in (TOKENTYPE_INT, TOKENTYPE_FLOAT):
-            self.advance()
+            self.advance('')
             return NumberNode(num_node_token)
 
 
@@ -209,7 +210,7 @@ class Parser:
 
         while self.current_token.type in operations:
             binary_operation_token = self.current_token
-            self.advance()
+            self.advance('')
             right = fun()
             left = BinaryOperationNode(left, binary_operation_token, right)
 
