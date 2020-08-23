@@ -2,7 +2,7 @@ import bmo
 
 while True:
     text = input('$bmo> ')
-    result, error = bmo.run(text)
+    result, error = bmo.run('<stdin>', text)
 
     if error:
         print(error.as_string())
